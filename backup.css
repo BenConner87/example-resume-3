@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito';
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 1.5;
+}
+
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(91, 90, 90);
+    color: white;
+}
+
+.header h3 {
+    margin-top: .5em;
+    padding: .5em;
+}
+
+.header span {
+    font-size: .7em;
+}
+
+.header img {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: .5em;
+    background: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.skills {
+    background-color: lightgray;
+}
+
+.skills h2 {
+    letter-spacing: .15em;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgba(255, 0, 0, 0.708);
+}
+
+.skills ul {
+    list-style: none;
+    font-style: italic;
+}
+
+.list ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    align-items: center;
+    justify-items: center; 
+}
+
+.list ul li {
+    padding: .5em;
+}
+
+.about-me {
+    background-color: rgb(91, 90, 90);
+    color: white;
+}
+
+.about-me h2 {
+    letter-spacing: .15em;
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
+}
+
+.about-me p {
+    padding: 1.5em;
+    font-size: .9rem;
+}
+
+.projects {
+    background-color: lightgray;
+}
+
+.projects h2 {
+    letter-spacing: .15em;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgba(255, 0, 0, 0.708);
+}
+
+.projects-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    margin: 1em;
+}
+
+.projects-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+    margin: 0 5% 0 5%;
+    padding: 1.5em;
+    font-size: .9rem;
+}
+
+.projects img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1em;
+}
+
+.education {
+    background-color: rgb(91, 90, 90);
+    color: white;
+}
+
+.education h2 {
+    letter-spacing: .15em;
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
+}
+
+.education ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    align-items: center;
+    justify-items: center; 
+}
+
+.education li {
+    padding: .5em;
+}
+
+.experience {
+    background-color: lightgray;
+}
+
+.experience h2 {
+    letter-spacing: .15em;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgba(255, 0, 0, 0.708);
+}
+
+.experience p {
+        padding: 1.5em;
+        font-size: .9rem;
+}
